@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 🔗 [Google Drive 下载地址](#)
 
-🔗 [百度网盘下载地址,提取码：fxw6](https://pan.baidu.com/s/1z6jj0o0fgtqbV6nfUt8VGw?pwd=fxw6)
+🔗 [百度网盘下载地址,提取码：fxw6](https://pan.baidu.com/s/1qo3G2HQ1y5rPFkbYubPOmQ?pwd=fxw6)
 
 解压后将模型文件夹放入 `weights/` 目录下
 
