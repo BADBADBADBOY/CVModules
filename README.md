@@ -38,8 +38,8 @@ pip install -r requirements.txt
 我们提供了一些常见视觉模型的 ONNX 及 OpenVINO IR 格式的预转换模型，可通过以下链接下载：
 
 🔗 [Google Drive 下载地址](#)
-🔗 [百度网盘下载地址](https://pan.baidu.com/s/1z6jj0o0fgtqbV6nfUt8VGw?pwd=fxw6 
-提取码：fxw6)
+
+🔗 [百度网盘下载地址,提取码：fxw6](https://pan.baidu.com/s/1z6jj0o0fgtqbV6nfUt8VGw?pwd=fxw6)
 
 解压后将模型文件夹放入 `weights/` 目录下
 
