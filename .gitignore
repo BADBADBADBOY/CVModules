@@ -51,3 +51,6 @@ venv/
 
 # macOS 特有
 .DS_Store
+
+# 特殊文件
+show.jpg

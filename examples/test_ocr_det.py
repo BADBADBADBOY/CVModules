@@ -7,6 +7,7 @@
 
 import cv2
 import time
+import numpy as np
 from modules import DetOnnxInfer, DetOpenvinoInfer
 
 onnx_model_path = "../weights/ocrv5_mobile/dets/mobile_det.onnx"
@@ -28,6 +29,10 @@ for i in range(test_time):
     t = time.time()
     bbox_batch, score_batch = openvino_det_obj.det_img(img, short_size = 736)
     openvino_time += time.time() - t
+
+for bbox in bbox_batch[0]:
+    img = cv2.drawContours(img,[bbox.astype(np.int32)],-1,(0,0,255),2)
+cv2.imwrite("./show.jpg", img)
 
 print(bbox_batch, score_batch)
 print("test {} , onnx cost time :{}s, openvino cost time:{}s".format(test_time, onnx_time/test_time, openvino_time/test_time))

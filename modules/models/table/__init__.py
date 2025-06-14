@@ -4,3 +4,5 @@
 # @Project : CVModules
 # @File : __init__.py.py
 # @Time : 2025/6/14 15:00
+
+from .. import OnnxInfer, OpenvinoInfer

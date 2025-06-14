@@ -13,6 +13,8 @@
 |----------------|---------------------------|-----------|----------------|
 | OCR 文字检测   | paddleOCR v5 mobile         | ✅         | ✅              |
 | OCR 文字识别   | paddleOCR v5 mobile          | ✅         | ✅              |
+| OCR 印章文字检测   | paddleOCR v4 mobile         | ✅         | ✅              |
+| OCR 印章文字检测   | paddleOCR v4 server          | ✅         | ✅              |
 
 
 更多模型正在持续更新中...
@@ -44,7 +46,7 @@ pip install -r requirements.txt
 解压后将模型文件夹放入 `weights/` 目录下
 
 
-### 方法二：自行转换 ONNX 模型为 OpenVINO IR 格式
+### 方法二：自行转换 ONNX 模型 和 OpenVINO IR 格式
 
 
 ---
@@ -79,7 +81,13 @@ python test_ocr_recog.py
 | ppocr-v5-det-mobile     | OpenVINO CPU |             |   
 | ppocr-v5-recog-mobile      | ONNX CPU   |              |    
 | ppocr-v5-recog-mobile      | ONNX GPU   |             |    
-| ppocr-v5-recog-mobile     | OpenVINO CPU |           |   
+| ppocr-v5-recog-mobile     | OpenVINO CPU |           | 
+| ppocr-v4-seal_text_det-mobile      | ONNX CPU   |              |    
+| ppocr-v4-seal_text_det-mobile      | ONNX GPU   |             |    
+| ppocr-v4-seal_text_det-mobile     | OpenVINO CPU |           | 
+| ppocr-v4-seal_text_det-server      | ONNX CPU   |              |    
+| ppocr-v4-seal_text_det-server      | ONNX GPU   |             |    
+| ppocr-v4-seal_text_det-server     | OpenVINO CPU |           |   
 
 
 > 注：以上数据仅为示例，具体性能视硬件配置而定。
