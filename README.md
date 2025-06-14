@@ -30,6 +30,21 @@ Python>=3.10
 pip install -r requirements.txt
 ```
 
+---
+## 📦 模型下载
+
+### 方法一：使用我们提供的预转换模型（推荐）
+
+我们提供了一些常见视觉模型的 ONNX 及 OpenVINO IR 格式的预转换模型，可通过以下链接下载：
+
+🔗 [Google Drive 下载地址](#)
+🔗 [百度网盘下载地址](#)
+
+解压后将模型文件夹放入 `weights/` 目录下
+
+
+### 方法二：自行转换 ONNX 模型为 OpenVINO IR 格式
+
 
 ---
 
@@ -76,3 +91,4 @@ python test_ocr_recog.py
 - [ONNX](https://onnx.ai/)
 - [OpenVINO™ Toolkit](https://docs.openvino.ai/)
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
+
