@@ -1,0 +1,53 @@
+# Python 缓存文件
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc~
+*.py~*
+*.db
+*.sqlite3
+
+# IPython Notebook / Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 模型文件
+*.onnx
+*.pb
+*.tflite
+*.pt
+*.pth
+*.ckpt
+*.weights
+*.safetensors
+
+# OpenVINO IR 文件
+*.xml
+*.bin
+*.mapping
+
+# 日志文件
+*.log
+*.prof
+nohup.out
+
+# 构建输出目录
+build/
+dist/
+*/__pycache__/
+
+# 虚拟环境相关
+env/
+venv/
+*.env
+*.virtualenv
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS 特有
+.DS_Store

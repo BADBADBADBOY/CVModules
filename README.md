@@ -71,19 +71,19 @@ python test_ocr_recog.py
 测试10次取平均值
 
 
-| 模型          | 平台       | 推理时间 (ms) | FPS  |
-|---------------|------------|----------------|------|
-| ppocr-v5-det-mobile      | ONNX CPU   |             |   |
-| ppocr-v5-det-mobile      | ONNX GPU   |             |   |
-| ppocr-v5-det-mobile     | OpenVINO CPU |             |    |
-| ppocr-v5-recog-mobile      | ONNX CPU   |              |    |
-| ppocr-v5-recog-mobile      | ONNX GPU   |             |    |
-| ppocr-v5-recog-mobile     | OpenVINO CPU |           |   |
+| 模型          | 平台       | 推理时间 (ms) | 
+|---------------|------------|----------------|
+| ppocr-v5-det-mobile      | ONNX CPU   |             |   
+| ppocr-v5-det-mobile      | ONNX GPU   |             |   
+| ppocr-v5-det-mobile     | OpenVINO CPU |             |   
+| ppocr-v5-recog-mobile      | ONNX CPU   |              |    
+| ppocr-v5-recog-mobile      | ONNX GPU   |             |    
+| ppocr-v5-recog-mobile     | OpenVINO CPU |           |   
 
 
 > 注：以上数据仅为示例，具体性能视硬件配置而定。
 
-
+---
 ## 🌟 致谢
 
 感谢以下开源项目的支持与启发：
