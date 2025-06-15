@@ -15,6 +15,8 @@
 | OCR 文字识别   | paddleOCR v5 mobile          | ✅         | ✅              |
 | OCR 印章文字检测   | paddleOCR v4 mobile         | ✅         | ✅              |
 | OCR 印章文字检测   | paddleOCR v4 server          | ✅         | ✅              |
+| 人脸特征提取  | facenet mobile(mobilenet)         | ✅         | ✅              |
+| 人脸特征提取   | facenet server(resnet50)          | ✅         | ✅              |
 
 
 更多模型正在持续更新中...
@@ -25,6 +27,7 @@
 
 Python>=3.10
 
+CUDA = 12.0
 
 ### 使用 pip 安装
 

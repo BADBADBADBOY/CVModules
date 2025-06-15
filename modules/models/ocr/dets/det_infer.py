@@ -14,6 +14,7 @@ class DetOnnxInfer(OnnxInfer):
     def __init__(self, model_path:str, use_gpu:bool = False, det_params:Dict = None):
         """
         :param model_path: 模型的地址
+        :param use_gpu: 是否使用GPU
         :param det_params: 检测的一些参数设置
         """
         super().__init__(model_path, use_gpu)

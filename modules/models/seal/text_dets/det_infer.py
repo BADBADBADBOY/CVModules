@@ -11,7 +11,7 @@ from .det_config import base_det_params
 from .. import OnnxInfer, OpenvinoInfer
 from .det_utils import normalize_img, DBPostProcess
 
-class DetOnnxInfer(OnnxInfer):
+class SealDetOnnxInfer(OnnxInfer):
     def __init__(self, model_path:str, use_gpu:bool = False, det_params:Dict = None):
         """
         :param model_path: 模型的地址
@@ -37,7 +37,7 @@ class DetOnnxInfer(OnnxInfer):
         bbox_batch, score_batch = self.db_post_process(out, [scale])
         return bbox_batch, score_batch
 
-class DetOpenvinoInfer(OpenvinoInfer):
+class SealDetOpenvinoInfer(OpenvinoInfer):
     def __init__(self, model_path:str, det_params:Dict = None):
         """
         :param model_path: 模型的地址

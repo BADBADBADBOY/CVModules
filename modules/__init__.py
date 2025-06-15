@@ -7,5 +7,7 @@
 
 from .models.ocr.dets.det_infer import DetOnnxInfer, DetOpenvinoInfer
 from .models.ocr.recogs.recog_infer import RecogOnnxInfer, RecogOpenvinoInfer
-from .models.seal.text_dets.det_infer import DetOnnxInfer as SealDetOnnxInfer
-from .models.seal.text_dets.det_infer import DetOpenvinoInfer as SealDetOpenvinoInfer
+from .models.seal.text_dets.det_infer import SealDetOnnxInfer, SealDetOpenvinoInfer
+from .models.face.feature_extraction.feature_infer import FeatureExtractOnnxInfer, FeatureExtractOpenvinoInfer
+
+
